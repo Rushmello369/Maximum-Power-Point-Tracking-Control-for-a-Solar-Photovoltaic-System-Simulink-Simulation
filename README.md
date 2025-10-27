@@ -1,6 +1,6 @@
 ## Maximum-Power-Point-Tracking-Control-for-a-Solar-Photovoltaic-System-Simulink-Simulation-
 
-#Objectives
+# Objectives
 
 This project aims to design and implement an MPPT (Maximum Power Point Tracking) algorithm to optimize the power output of a solar photovoltaic (PV) system under varying environmental conditions. A DC-DC boost converter is modeled to interface the PV array with a load, and real-time MPPT ensures maximum efficiency.
 
