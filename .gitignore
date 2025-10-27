@@ -1,0 +1,41 @@
+# Ignore temporary and backup files
+*.asv
+*.m~
+*.bak
+
+# Ignore MATLAB autosave files
+*.autosave
+
+# Ignore compiled output and cache
+*.mex*
+*.p
+
+# Ignore Simulink generated code and caches
+slprj/
+sfprj/
+codegen/
+
+# Ignore system or hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary workspace files
+*.log
+*.mat
+*.tmp
+
+# Ignore Jupyter or text editor backup files
+.ipynb_checkpoints/
+*.swp
+
+# Ignore Figures or Outputs generated during testing
+generated/
+results/*
+
+# Allow results README to track folder
+!results/*.md
+
+# Ignore large binary files
+*.wav
+*.zip
+*.exe
