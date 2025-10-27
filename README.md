@@ -3,6 +3,17 @@
 ## Objectives
 
 This project aims to design and implement an MPPT (Maximum Power Point Tracking) algorithm to optimize the power output of a solar photovoltaic (PV) system under varying environmental conditions. A DC-DC boost converter is modeled to interface the PV array with a load, and real-time MPPT ensures maximum efficiency.
+## Folder Structure
+/MPPT-Solar-Simulation
+│
+├─ models/      # Simulink models (.slx)
+├─ src/         # MATLAB control, MPPT, test scripts (.m)
+├─ data/        # irradiance profile, logged data if any (.mat)
+├─ results/     # plots, screenshots, demo video
+├─ docs/        # brief design report & notes
+│
+├─ .gitignore
+└─ README.md
 
 ## Motivation
 
