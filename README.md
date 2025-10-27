@@ -18,6 +18,8 @@ This project aims to design and implement an MPPT (Maximum Power Point Tracking)
 
 ├─ docs/        # brief design report & notes
 
+├─ images/      # project screenshots
+
 │
 
 ├─ .gitignore
