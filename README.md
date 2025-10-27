@@ -1,10 +1,10 @@
-## Maximum-Power-Point-Tracking-Control-for-a-Solar-Photovoltaic-System-Simulink-Simulation-
+# Maximum-Power-Point-Tracking-Control-for-a-Solar-Photovoltaic-System-Simulink-Simulation-
 
-# Objectives
+## Objectives
 
 This project aims to design and implement an MPPT (Maximum Power Point Tracking) algorithm to optimize the power output of a solar photovoltaic (PV) system under varying environmental conditions. A DC-DC boost converter is modeled to interface the PV array with a load, and real-time MPPT ensures maximum efficiency.
 
-#Motivation
+## Motivation
 
 As the world transitions to renewable energy, power electronics plays a critical role in energy conversion and grid integration. MPPT controllers are essential in solar power systems, ensuring maximum utilization of solar irradiance.
 
@@ -15,7 +15,7 @@ This project strengthens key engineering abilities valued by power system compan
  Control algorithms implementation
  Practical grid engineering relevance
 
-#Features & Scope
+## Features & Scope
 
  Photovoltaic cell model based on industry I–V characteristics
  DC-DC Boost Converter with PWM switching
@@ -26,7 +26,7 @@ This project strengthens key engineering abilities valued by power system compan
  Data visualization of power tracking performance
  Efficiency comparison of operation with and without MPPT
 
-#Tools & Knowledge
+## Tools & Knowledge
 
 Software: MATLAB + Simulink (no hardware required)
 
@@ -37,14 +37,14 @@ Power Electronics	Boost converter design, switching devices
 Control Systems	MPPT feedback algorithm
 Renewable Energy	PV electrical modeling
 Simulation	Component modeling & waveform analysis
-#Project Structure
+## Project Structure
 Stage	Description	Deliverable
  Research	Learn PV modeling & MPPT algorithms	System design report
  System Modeling	Build PV + DC-DC converter in Simulink	Functional simulation
  MPPT Controller	Implement P&O control	Working module with plots
  Dynamic Testing	Apply environment changes	Performance data & graphs
  Documentation	README + Report + GitHub Repo	Publishable portfolio project
- #Expected Outcomes
+## Expected Outcomes
 
  Achieve maximum power point operation
  Demonstrate controller response to real-world variations
@@ -52,7 +52,7 @@ Stage	Description	Deliverable
  Provide a professional engineering case study
 
 
-#Practical Impact
+## Practical Impact
 
 MPPT controllers are used in:
 
@@ -70,7 +70,7 @@ Smart control in distributed energy systems
 
 National Grid and other UK power companies look for exactly this type of experience. Yes — a project like this absolutely strengthens your application as a 2nd-year EEE student.
 
-#Future Extensions 
+## Future Extensions 
 
 If you later want to improve further:
 
