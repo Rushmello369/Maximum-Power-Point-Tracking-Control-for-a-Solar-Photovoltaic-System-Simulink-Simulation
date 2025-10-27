@@ -2,7 +2,8 @@
 
 ## Objectives
 
-This project aims to design and implement an MPPT (Maximum Power Point Tracking) algorithm to optimize the power output of a solar photovoltaic (PV) system under varying environmental conditions. A DC-DC boost converter is modeled to interface the PV array with a load, and real-time MPPT ensures maximum efficiency.
+This project aims to design and implement an MPPT (Maximum Power Point Tracking) algorithm from scratch to optimize the power output of a solar photovoltaic (PV) system under varying environmental conditions, and learn essential engineering skillset along the way. 
+
 ## Folder Structure
 /MPPT-Solar-Simulation
 
@@ -30,7 +31,7 @@ This project aims to design and implement an MPPT (Maximum Power Point Tracking)
 
 As the world transitions to renewable energy, power electronics plays a critical role in energy conversion and grid integration. MPPT controllers are essential in solar power systems, ensuring maximum utilization of solar irradiance.
 
-This project strengthens key engineering abilities valued by power system companies like National Grid, UK Power Networks, Siemens Energy, GE Vernova, and ABB:
+As a second year student at Imperial college, this project could build up foundamental power electronic skills including:
 
  Power electronics simulation
  Renewable energy system analysis
@@ -40,24 +41,31 @@ This project strengthens key engineering abilities valued by power system compan
 ## Features & Scope
 
  Photovoltaic cell model based on industry I–V characteristics
+ 
  DC-DC Boost Converter with PWM switching
+ 
  MPPT control using Perturb & Observe algorithm
+ 
  Simulation under changing:
+
 • Irradiance
+
 • Temperature
+ 
  Data visualization of power tracking performance
+ 
  Efficiency comparison of operation with and without MPPT
 
 ## Tools & Knowledge
 
 Software: MATLAB + Simulink (no hardware required)
 
-Core Knowledge Areas
-
-Field	What You’ll Apply
 Power Electronics	Boost converter design, switching devices
+
 Control Systems	MPPT feedback algorithm
+
 Renewable Energy	PV electrical modeling
+
 Simulation	Component modeling & waveform analysis
 ## Project Structure
 Stage	Description	Deliverable
