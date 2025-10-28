@@ -85,9 +85,9 @@ This project relies on specific toolboxes for modeling power electronics. Please
 
 ### 3. Clone the Repository
 
-    * Open your terminal or command prompt.
-    * Navigate to the directory where you want to store your project.
-    * Clone this repository using the following command:
+Open your terminal or command prompt.
+Navigate to the directory where you want to store your project.
+Clone this repository using the following command:
         ```bash
         git clone [https://github.com/YourUsername/MPPT-Solar-Simulation.git](https://github.com/YourUsername/MPPT-Solar-Simulation.git)
         cd MPPT-Solar-Simulation
