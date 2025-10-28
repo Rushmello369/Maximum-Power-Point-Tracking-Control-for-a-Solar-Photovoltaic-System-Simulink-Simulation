@@ -1,4 +1,4 @@
-# Maximum-Power-Point-Tracking-Control-for-a-Solar-Photovoltaic-System-Simulink-Simulation-
+# Maximum Power-Point-Tracking Control for a Solar Photovoltaic System Simulink Simulation
 
 ## Objectives
 
