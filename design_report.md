@@ -61,11 +61,13 @@ To build a model of a solar panel and understand its fundamental behaviour by tr
 6.Electrical Reference
 
 ![Alt Text](image/fig1.11.png)
+
 Fig 1.11 Components 
 
 ### Step 2: Connect the components
 
-![Alt Text](image/fig.png)
+![Alt Text](image/fig1.12.png)
+
 Fig 1.12 Connection of the circuit
 
 connect voltage sensor in parallel to the solar cell
@@ -75,14 +77,18 @@ use two PS-Simulink converter to collect data from the sensors
 
 Step 3: IV Characteristics & PV Characteristics
 
+![Alt Text](image/fig1.13.png)
+
 Fig 1.13
 
 I have added a constant 1000W/m^2   input for the solar cell, two xy graph blocks, and a multiplier.
 Here's the results:
 
+![Alt Text](image/fig1.14.png)
+
 fig 1.14 IV-Characteristics
 
-
+![Alt Text](image/fig1.15.png)
 
 fig 1.15 PV-Characteristics
 
@@ -91,13 +97,19 @@ Plotting Better Graph using Matlab tools
 
 collecting data using to workspace blocks
 
+![Alt Text](image/fig1.16.png)
+
 fig 1.16
+
+![Alt Text](image/fig1.17.png)
 
 fig 1.17 code
 
+![Alt Text](image/fig1.18.png)
 
 fig 1.18 IV
 
+![Alt Text](image/fig1.19.png)
 
 fig 1.19 PV  The maximum power point for a 1000 W/m^2 sunlight is approximately 200W with operating voltage of 30V
 
@@ -107,6 +119,8 @@ fig 1.19 PV  The maximum power point for a 1000 W/m^2 sunlight is approximately 
 
 
 ### Step 1: Create a New Model & Add Basic Blocks
+
+![Alt Text](image/fig1.21.png)
 
 fig 1.21
 
@@ -125,6 +139,8 @@ Components:
 
 ### Step 2: Measure the output voltage
 
+![Alt Text](image/fig1.22.png)
+
 fig 1.22
 
 50% Duty cycle
@@ -133,6 +149,7 @@ fig 1.22
 
 Set the Duty Cycle to 90%
 
+![Alt Text](image/fig1.23.png)
 
 fig 1.23
 
@@ -157,12 +174,16 @@ The capacitor voltage doesn't just stop perfectly at 60V; the "momentum" of the 
 
 ### Step 1: Integrate the components
 
+![Alt Text](image/fig2.11.png)
+
 fig 2.11
 
 Replaced the voltage source with the PV array
 Remove unnecessary sensor blocks
 
 ### Step two: Measure the input power
+
+![Alt Text](image/fig2.12.png)
 
 fig 2.12
 
@@ -171,6 +192,7 @@ Set the values of the components:
 R = 18.5
 Duty cycle = 20%
 
+![Alt Text](image/fig2.13.png)
 
 fig 2.13
 
@@ -178,17 +200,23 @@ power = 100
 
 Duty Cycle = 30%
 
+![Alt Text](image/fig2.14.png)
+
 fig 2.14
 
 power = 125
 
 Duty Cycle = 40%
 
+![Alt Text](image/fig2.15.png)
+
 fig 2.15
 
 Power = 170
 
 Duty Cycle = 50%
+
+![Alt Text](image/fig2.16.png)
 
 fig 2.16
 
@@ -206,6 +234,8 @@ Perturb: Nudge the duty cycle (D) in one direction (e.g., increase it).
 Observe: Did the power (P) go up or down? If P went up, you moved in the right direction. Keep going. If P went down, you moved in the wrong direction. Turn around.
 
 ### Step 1: Create New Model
+
+![Alt Text](image/fig2.21.png)
 
 fig 2.21
 
@@ -294,6 +324,7 @@ Update: Finally, the current values of power, voltage, and duty cycle are saved 
 
 Output Power & Operating Voltage
 
+![Alt Text](image/fig2.22.png)
 
 fig 2.22
 
@@ -320,6 +351,8 @@ Goal: To simulate a passing cloud and verify that your MPPT algorithm can find t
 
 Replace the Constant (1000 W/m²) block with a Step block to simulate a sudden drop in sunlight.
 
+![Alt Text](image/fig3.11.png)
+
 fig 3.11
 
 Setup:
@@ -333,6 +366,7 @@ The run time is now set to 3, which should include 1s of sunlight = 1000 W/m^2 a
 
 First attempt:
 
+![Alt Text](image/fig3.12.png)
 
 fig 3.12
 
@@ -345,10 +379,13 @@ Quick fix:
 
 Loosen the solver tolerance
 
+![Alt Text](image/fig3.13.png)
+
 fig 3.13
 
 Second Attempt:
 
+![Alt Text](image/fig3.14.png)
 
 fig 3.14
 
@@ -358,9 +395,13 @@ Final Fix:
 
 Change the solver to fix-step, with sample time 1e-6.
 
+![Alt Text](image/fig3.15.png)
+
 fig 3.15
 
 Result:
+
+![Alt Text](image/fig3.16.png)
 
 fig 3.16
 
@@ -384,6 +425,8 @@ sample time = 0.01 s
 
 Result:
 
+![Alt Text](image/fig3.21.png)
+
 fig 3.21
 
 Explanations
@@ -393,6 +436,7 @@ Explanations
 
 delta_D = 0.02 (x10)
 
+![Alt Text](image/fig3.22.png)
 
 fig 3.22
 
@@ -405,8 +449,9 @@ explanations
 delta_D = 0.002
 sample time = 0.1
 
+![Alt Text](image/fig3.23.png)
 
-fig 3.33
+fig 3.23
 
 ## 4.Conclusion
 
