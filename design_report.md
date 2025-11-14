@@ -60,10 +60,12 @@ To build a model of a solar panel and understand its fundamental behaviour by tr
 -PS-Simulink Converter
 6.Electrical Reference
 
+![Alt Text](image/fig1.11.png)
 Fig 1.11 Components 
 
 ### Step 2: Connect the components
 
+![Alt Text](image/fig.png)
 Fig 1.12 Connection of the circuit
 
 connect voltage sensor in parallel to the solar cell

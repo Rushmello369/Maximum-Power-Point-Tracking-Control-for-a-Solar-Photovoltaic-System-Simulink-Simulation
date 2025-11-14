@@ -11,17 +11,11 @@ This project aims to design and implement an MPPT (Maximum Power Point Tracking)
 
 ├─ models/      # Simulink models (.slx)
 
-├─ src/         # MATLAB control, MPPT, test scripts (.m)
-
-├─ data/        # irradiance profile, logged data if any (.mat)
-
-├─ results/     # plots, screenshots, demo video
-
-├─ docs/        # brief design report & notes
-
 ├─ images/      # project screenshots
 
 │
+
+├─ design_report.md
 
 ├─ .gitignore
 
