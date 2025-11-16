@@ -108,37 +108,3 @@ Stage	Description	Deliverable
  Achieve maximum power point operation
  Demonstrate controller response to real-world variations
  Visualize efficiency improvement
- Provide a professional engineering case study
-
-
-## Practical Impact
-
-MPPT controllers are used in:
-
- Solar farms connected to national grids
- Residential rooftop micro-inverters
- Battery storage and smart energy systems
-
-This project directly relates to:
-
-Power grid modernization
-
-Renewable integration & net-zero goals
-
-Smart control in distributed energy systems
-
-National Grid and other UK power companies look for exactly this type of experience. Yes — a project like this absolutely strengthens your application as a 2nd-year EEE student.
-
-## Future Extensions 
-
-If you later want to improve further:
-
-Add a second MPPT algorithm for comparison (e.g., Incremental Conductance)
-
-Simulate partial shading conditions (real-world challenge)
-
-Include battery storage and converter efficiency estimation
-
-FPGA/Embedded MPPT implementation (ties in with your other internship targets)
-
-
