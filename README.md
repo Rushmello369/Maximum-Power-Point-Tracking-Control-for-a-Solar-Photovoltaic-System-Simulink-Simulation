@@ -34,21 +34,21 @@ As a second year student at Imperial college, this project could build up founda
 
 ## Features & Scope
 
- Photovoltaic cell model based on industry I–V characteristics
+ -Photovoltaic cell model based on industry I–V characteristics
  
- DC-DC Boost Converter with PWM switching
+ -DC-DC Boost Converter with PWM switching
  
- MPPT control using Perturb & Observe algorithm
+ -MPPT control using Perturb & Observe algorithm
  
- Simulation under changing:
+ -Simulation under changing:
 
 • Irradiance
 
 • Temperature
  
- Data visualization of power tracking performance
+ -Data visualization of power tracking performance
  
- Efficiency comparison of operation with and without MPPT
+ -Efficiency comparison of operation with and without MPPT
 
 ## Tools & Knowledge
 
@@ -61,7 +61,7 @@ Control Systems	MPPT feedback algorithm
 Renewable Energy	PV electrical modeling
 
 Simulation	Component modeling & waveform analysis
-## 🛠️ Environment Setup
+## Environment Setup
 
 To run the simulations and scripts in this project, you will need the following software installed.
 
@@ -82,10 +82,11 @@ This project relies on specific toolboxes for modeling power electronics. Please
 Open your terminal or command prompt.
 Navigate to the directory where you want to store your project.
 Clone this repository using the following command:
-        ```bash
-        git clone [https://github.com/YourUsername/MPPT-Solar-Simulation.git](https://github.com/YourUsername/MPPT-Solar-Simulation.git)
-        cd MPPT-Solar-Simulation
-        ```
+       
+```bash
+git clone [https://github.com/YourUsername/MPPT-Solar-Simulation.git](https://github.com/YourUsername/MPPT-Solar-Simulation.git)
+cd MPPT-Solar-Simulation
+```
 
 ### 4. Verify Your Environment
 
